@@ -31,10 +31,6 @@ func main() {
 	}
 }
 
-func printUsage() {
-	print("TODO")
-}
-
 func checkFlags() error {
 
 	flag.Parse()
