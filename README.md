@@ -11,6 +11,8 @@ Also has support for TLS if the certificate chain .pem and key.pem are provided.
         (optional) -d Path to directory to serve
   -k string
         (optional) -k Path to cert private key
+  -n bool
+        (optional) -n No cache flag
   -p string
         -p Port to listen on - will set to 80 if not provided
 ``` 
